@@ -40,7 +40,7 @@ const vent = new Image();
             
             i = i + 10;
             
-            z = z + 3;
+            z = z + 4;
             if(i > 1400)
               i = -40
           
@@ -90,7 +90,7 @@ function  backward()
   klatka--;
   console.log(aktKlatka);
   i = i - 10;
-  z = z - 3;
+  z = z - 4;
   if(i < -40)
     i = 1400
   if(z < -30)
